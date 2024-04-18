@@ -63,7 +63,7 @@ export const Navbar = () => {
         </ul>
 
         <button className="bg-[#F18701] px-4 py-2 font-sans font-bold text-white text-base">
-          SIGN UP
+          <a href="https://forms.gle/5PQMvZeohr3ifnuD7">SIGN UP</a>
         </button>
       </div>
 

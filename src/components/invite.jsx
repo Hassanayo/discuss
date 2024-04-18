@@ -43,7 +43,7 @@ export const Invitation = () => {
 
         <div className="bg-[#1A1A1A] px-20 py-6 mb-10">
           <h1 className="font-semibold text-4xl text-white">
-            JOIN THE DISCUS COMMUNITY
+            <a href="https://forms.gle/5PQMvZeohr3ifnuD7">JOIN THE DISCUS COMMUNITY</a>
           </h1>
         </div>
 

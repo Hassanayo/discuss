@@ -57,7 +57,11 @@ export const Grid = () => {
         </div>
 
         <div className="bg-[#1A1A1A] text-center w-1/2 mx-auto px-20 py-6 mb-10">
-          <h1 className="font-semibold text-4xl text-white">BECOME A MEMBER</h1>
+          <h1 className="font-semibold text-4xl text-white">
+            <a href="https://forms.gle/5PQMvZeohr3ifnuD7">
+              BECOME A MEMBER
+            </a>
+          </h1>
         </div>
 
         <div className="flex flex-col items-center justify-center">
@@ -87,16 +91,18 @@ export const Grid = () => {
 
         <div className="bg-[#1A1A1A] text-center w-1/2 mx-auto px-20 py-6 mb-10">
           <h1 className="font-semibold text-4xl text-white">
-            JOIN THE COMMUNITY
+            <a href="https://forms.gle/5PQMvZeohr3ifnuD7">
+              JOIN THE COMMUNITY
+            </a>
           </h1>
         </div>
 
         <div className="relative h-[100vh]">
           <img className="absolute" src="./assets/newMag.png" alt="" />
 
-          <div className="text-white top-48 flex items-center flex-col justify-center relative">
-            <h1 className="font-ussf mb-4 text-6xl font-semibold w-2/3 mx-auto text-center">SUBSCRIBE TO OUR NEWSLETTER</h1>
-            <div className="flex gap-x-4 items-center">
+          <div className="top-48 flex items-center flex-col justify-center relative">
+            <h1 className="text-white font-ussf mb-4 text-6xl font-semibold w-2/3 mx-auto text-center">SUBSCRIBE TO OUR NEWSLETTER</h1>
+            <div className="flex gap-x-4 items-center text-black">
               <input
                 type="text"
                 className="py-2 px-4 w-72 font-serif"
@@ -105,7 +111,11 @@ export const Grid = () => {
                 id=""
               />
 
-              <button className="bg-[#F18701] border-2 font-serif border-solid border-white px-4 py-2 font-bold">SUBMIT</button>
+              <button className="text-white bg-[#F18701] border-2 font-serif border-solid border-white px-4 py-2 font-bold">
+                <a href="https://forms.gle/5PQMvZeohr3ifnuD7">
+                  SUBMIT
+                </a>
+              </button>
             </div>
           </div>
         </div>
